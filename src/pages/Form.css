@@ -1,0 +1,11 @@
+.box{
+    background-color: hsla(360, 14%, 77%,0.5);
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    max-width: 40%;
+    display: flex;
+    justify-content: space-around;
+}

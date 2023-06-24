@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+  }
+  
+  .row {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid red;
+    
+  }
+
+  .row:last-child{
+    border-bottom: none;
+  }
+  
+  .column {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+
+  .label {
+    position: sticky;
+    top: 120px;
+    left: 48px;
+    margin-bottom: 12px;
+  }
+
+  .label-text{
+    position: relative;
+    right: 96px;
+    
+  }
